@@ -1,0 +1,11 @@
+[project]
+name = "ai-social-media-data-analyzis"
+version = "1.0.0"
+description = "Exploratory data analysis and dimensionality reduction (PCA, MDS, t-SNE) of a dataset on AI and social media impact on student health"
+requires-python = ">=3.12"
+
+[tool.mypy]
+python_version = "3.14"
+ignore_missing_imports = true
+warn_unused_ignores = true
+warn_redundant_casts = true
